@@ -24,7 +24,7 @@ CREATE TABLE "Product" (
     "name" TEXT NOT NULL,
     "description" TEXT NOT NULL,
     "imageUrl" TEXT NOT NULL,
-    "prices" DECIMAL(10,2) NOT NULL,
+    "price" DECIMAL(10,2) NOT NULL,
     "discountPercentage" INTEGER NOT NULL DEFAULT 0,
     "restaurantId" TEXT NOT NULL,
     "categoryId" TEXT NOT NULL,
